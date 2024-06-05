@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.navbar > img {
+  width: 150px;
+  cursor: pointer;
+}
+
+.navlinks-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+
+.navlink {
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+
+.navlink.active {
+  border-bottom: 2px solid tomato;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navbar-btn {
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid tomato;
+  font-size: 1rem;
+  transition: 0.5s;
+  font-weight: 300;
+}
+
+.navbar-btn:hover {
+  background: #fff6f3;
+}
+
+.navbar-cart {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+span.dot {
+  position: absolute;
+  background: tomato;
+  min-width: 10px;
+  min-height: 10px;
+  border-radius: 15px;
+  right: -3.5px;
+  top: 1.5px;
+}

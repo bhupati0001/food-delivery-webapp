@@ -1,0 +1,43 @@
+.header {
+  background: url("/header_img.png");
+  height: 70vh;
+  width: auto;
+  margin: auto;
+  padding: 0 10%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  font-family: "Outfit", sans-serif;
+}
+
+.header-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  max-width: 50%;
+  bottom: 10%;
+  animation: fadeIn 3s;
+}
+
+.header-content h1 {
+  font-size: max(4.5vw, 22px);
+  color: white;
+  font-weight: 600;
+}
+
+.header-content p {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.header-content button {
+  width: max-content;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 500;
+}
